@@ -1,5 +1,6 @@
-body {
-    font-style: light;  
+* {
+    font-family: sans-serif;
+
 }
 
 .grid-container {
@@ -7,9 +8,8 @@ body {
     grid-template-rows: repeat(3, 1fr);
    
 }
-  
 
-.grid-item1, .grid-item2, .grid-item3 {
+.grid-item {
     background-color: white;
     padding: 20px;
     font-size: 30px;
@@ -20,12 +20,13 @@ body {
 input[type=number] {
     width: 200px;
     height: 60px;
+    text-align: center;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 1px;
     font-size: 25px;
     position: relative;
-    left: 15px;
+    right: 140px;
 }
 
 button {
@@ -36,14 +37,18 @@ button {
     width: 150px;
     height: 60px;
     position: relative;
-    left: 110px;
+    left: 10px;
 
     }
-
-.label {
+.button2 {
+    border-radius: 1px;
+    background-color: rgb(228, 248, 255);
+    font-size: 25px;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
     position: relative;
-    right: 110px;
-
+    margin-right : 300px;
 }
 
 
